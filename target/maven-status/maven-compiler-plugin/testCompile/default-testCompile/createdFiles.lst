@@ -1,0 +1,6 @@
+com\hrm\qa\testcases\Loginpagetest.class
+com\hrm\qa\testcases\Admin_Usertest.class
+com\hrm\qa\testcases\Nationalitytest.class
+com\hrm\qa\testcases\Quali_skillTest.class
+com\hrm\qa\testcases\Dashboardtest.class
+com\hrm\qa\testcases\job_jobtitletest.class

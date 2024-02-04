@@ -1,0 +1,12 @@
+com\hrm\qa\pages\Employmentsatuspage.class
+com\hrm\qa\pages\Dashboardpage.class
+com\hrm\qa\pages\job_jobtitlepage.class
+com\hrm\qa\pages\Admin_Usermanagementpage.class
+com\hrm\qa\pages\Loginpage.class
+com\hrm\qa\utilies\Testutil.class
+com\hrm\qa\pages\Nationalitiespage.class
+com\hrm\qa\testbase\Testbase.class
+com\hrm\qa\utilies\ExcelApiTest3.class
+com\hrm\qa\utilies\Test11.class
+com\hrm\qa\utilies\ExcelApiTest4.class
+com\hrm\qa\pages\Qualification_skillspage.class
