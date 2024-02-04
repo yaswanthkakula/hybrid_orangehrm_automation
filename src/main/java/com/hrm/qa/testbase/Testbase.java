@@ -37,11 +37,12 @@ public class Testbase {
 			 ChromeOptions options = new ChromeOptions();
 			 options.setHeadless(false);
 			 WebDriver driver = new ChromeDriver(options);
+			driver.manage().window().maximize();
+			driver.manage().deleteAllCookies();
+			driver.get(url);
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		}
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
 	}
 
 }
