@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Testbase {
 	public static WebDriver driver;
@@ -34,15 +33,13 @@ public class Testbase {
 		String url = pro.getProperty("url");
 		if (browsername.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
-			 ChromeOptions options = new ChromeOptions();
-			 options.setHeadless(false);
-			 WebDriver driver = new ChromeDriver(options);
-			driver.manage().window().maximize();
-			driver.manage().deleteAllCookies();
-			driver.get(url);
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			driver = new ChromeDriver();
+			
 		}
-		
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
 }
