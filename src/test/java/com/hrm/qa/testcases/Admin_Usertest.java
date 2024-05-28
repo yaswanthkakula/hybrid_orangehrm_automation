@@ -24,7 +24,7 @@ public class Admin_Usertest extends Testbase{
 
 	
 	public Admin_Usertest(){
-		super();
+		super();//testbase
 	}
 
 	@BeforeMethod
